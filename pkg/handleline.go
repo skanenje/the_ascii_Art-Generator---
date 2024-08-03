@@ -5,7 +5,7 @@ import (
     "strings"
 )
 
-func PrintAsciiArt(text string, p map[rune]string, color string, substring string, justify string, width int) {
+func PrintAsciiArt(text string, p map[rune]string, color string, substring string) {
     if text == "" {
         return
     }
@@ -29,6 +29,7 @@ func PrintAsciiArt(text string, p map[rune]string, color string, substring strin
 
     if text == "\n" {
         fmt.Println()
+        return
     }
 
     var lines []string
@@ -37,15 +38,11 @@ func PrintAsciiArt(text string, p map[rune]string, color string, substring strin
     } else {
         lines = strings.Split(text, "\n")
     }
-    count := 0
 
     for _, line := range lines {
         if line == "" {
-            count++
-            if count < len(lines) {
-                fmt.Println()
-            }
-        } else if len(line) > 0 {
+            fmt.Println()
+        } else {
             PrintArt(line, p, color, substring)
         }
     }
