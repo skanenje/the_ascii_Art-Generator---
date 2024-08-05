@@ -19,12 +19,6 @@ This project is a web based ascii art-Generator implemented in Go. It takes user
             <sub style="font-size:14px"><b>skanenje</b></sub>
         </a>
     </td>
-    <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
-        <a href=https://www.linkedin.com/in/rodgers-kaunda>
-            <img src=https://learn.zone01kisumu.ke/git/avatars/aa19095145ab1ad43695e3cd3f7f3a5b?size=870 width="100;"  style="border-radius:50%;align-items:center;justify-content:center;overflow:hidden;padding-top:10px" alt=krodgers/>
-            <br />
-            <sub style="font-size:14px"><b>krodgers</b></sub>
-        </a>
    
 </tr>
 </table>
@@ -37,7 +31,7 @@ Once go is installed  clone into this repository to do this
 
 - Open terminal and run
 ``` sh
-git clone https://github.com/karodgers/ascii-art-web-stylize
+git clone https://github.com/skanenje/ascii-art-web-stylize
 cd ascii-art-web-stylize
 ```
 Once you are in the directory,
