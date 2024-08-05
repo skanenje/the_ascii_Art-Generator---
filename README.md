@@ -1,12 +1,4 @@
-# Ascii Art Web Stylize
-## Description
-This project is a web based ascii art-Generator implemented in Go. It takes user input, generates ascii art based on selected banner, and displays the results on a web interface.
 
-### Features
-- ASII art generation based on user input.
-- Web-based interface for easy interaction
-- Error handling for invalid input and missing template files
-- ASCII art output displayed using HTML and CSS.
 
 ### Authors
 
@@ -31,8 +23,8 @@ Once go is installed  clone into this repository to do this
 
 - Open terminal and run
 ``` sh
-git clone https://github.com/skanenje/ascii-art-web-stylize
-cd ascii-art-web-stylize
+git clone https://github.com/skanenje/ascii-art_--
+cd ascii-art_--
 ```
 Once you are in the directory,
 
@@ -40,63 +32,22 @@ To run the program, use the following command, on the terminal command line:
 ```bash
 go run main.go
 ```
-The terminal will prompt 
-```
-Starting server at :8080
-to access visit http://localhost:8080
-```
-Use the link provided to the access the web GUI.
-
-1. **Access the Web Interface:**
-
-    Open your web browser and navigate to the provided URL where the HTML file is hosted (i.e, http://localhost:8080/).
-
-2. **Input Text:**
-
-    You'll see a text area labeled "Enter Input Text Here:". Click inside this area and type the text you want to convert into ASCII art.
-
-3. **Select a Banner Style:**
-
-    Choose a banner style from the dropdown menu labeled "Select Banner:". Options include:
-        Standard: Basic ASCII art representation.
-        Thinkertoy: A more elaborate ASCII art style.
-        Shadow: ASCII art with a shadow effect.
-
-4. **Generate ASCII Art:**
-
-    Click on the "Generate ASCII Art" button below the input form. This will process your input and display the ASCII art output below the form.
-
-5. **View ASCII Art Output:**
-
-    Once generated, the ASCII art output will appear under the heading "ASCII Art Output:". It will be displayed inside a bordered box for easy viewing.
-
-7. **Reset Input:**
-
-    To clear the input and start over, you can click on the "Reset" button located below the input form. This will refresh the page, clearing the text area and resetting the banner selection.
-
-8. **Interact with the Output:**
-
-    You can scroll within the ASCII art box to view larger outputs and adjust the view as needed.
-## Implementation: Algorithms
-- The program uses Go's standard packages for HTTP handling, template rendering, and file operations.
-- It validates user input for ASCII characters only and checks for the existence and integrity of ASCII art templates.
-- The web interface allows users to input text, and see the generated ASCII art.
-
+for further instructions
 
 ## HOW TO CONTRIBUTE ? 👷 
 
-**1.** Fork [this](https://github.com/skanenje/ascii-art-web-stylize) repository.
+**1.** Fork [this](https://github.com/skanenje/ascii-art_--) repository.
 
 **2.** Clone the forked repository.
 
 ```terminal
-git clone https://github.com/skanenje/ascii-art-web-stylize
+git clone https://github.com/skanenje/ascii-art_--
 ```
 
 **3.** Navigate to the project directory.
 
 ```terminal
-cd ascii-art-web-stylize
+cd ascii-art_--
 ```
 
 **4.**  MAKE A NEW FOLDER WITH YOUR PROJECT NAME INSIDE 
@@ -128,7 +79,7 @@ git push -u origin <your_branch_name>
 
 **8.** Create a Pull Request!
 
-**Congratulations!** Sit and relax till we review your PR, you've made your contribution to (https://github.com/skanenje/ascii-art-web-stylize) project
+**Congratulations!** Sit and relax till we review your PR, you've made your contribution to (https://github.com/skanenje/ascii_--) project
 
 ### Issues and Contributions
 
